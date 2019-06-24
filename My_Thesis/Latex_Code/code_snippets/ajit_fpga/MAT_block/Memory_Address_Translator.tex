@@ -1,0 +1,30 @@
+\singlespacing
+\scriptsize
+\begin{lstlisting}[language=C++, caption=Memory Address Translator HLS, label={lst:MAT}]
+#include "ap_int.h"
+#include "hls_stream.h"
+
+void Memory_Address_Translator(int data_in,int address,int* translated_base,...,int *data_out)
+{
+	#pragma HLS INTERFACE m_axi port=translated_base offset=none
+	#pragma HLS INTERFACE s_axilite port=data_in
+	#pragma HLS INTERFACE s_axilite port=address
+	#pragma HLS INTERFACE s_axilite port=read_write_in
+	#pragma HLS INTERFACE s_axilite port=data_out
+	#pragma HLS INTERFACE s_axilite port=return
+	
+	// read_write_in is 1 for write and 0 for read
+
+	if(read_write_in)
+	{
+		translated_base[address/4] = data_in;
+	}
+	else
+	{
+		*data_out = translated_base[address/4];
+	}
+}
+\end{lstlisting}
+% void Memory_Address_Translator(int data_in, int address, int* translated_base,int read_write_in, int *data_out)
+\normalsize
+\doublespacing

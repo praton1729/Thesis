@@ -1,0 +1,31 @@
+\chapter{Need for a FPGA system}
+
+The FPGA system developed around AJIT Core consists of the necessary peripherals which enable the user to boot a decently packed embedded OS
+on it. A flexible FPGA system is preferred where the integration of new peripherals is as smooth as possible by keeping the disturbance
+caused to the current configuration as minimal as possible. Here in this system adding a new processor core is as smooth as adding a new
+peripheral which is a huge advantage over traditional systems based around a single core, this makes the transition to a multiprocessor
+model really easy and convenient.
+
+The above system acts as a test-bed for various purposes such as:-
+
+\begin{itemize}
+
+\item Easy custom OS booting cycles : The system can be easily loaded with custom operating systems compiled for AJIT from scratch or through
+embedded OS build systems such as Buildroot or Yocto.
+
+%\item Loading packed embedded operating systems : Larger ob-board DRAM allows us to load heavier OS packed with useful drivers.
+
+\item Debugging of Bootloader related bugs : The FPGA system provides the boot log over serial(UART) to the host machine which is really
+helpful in debugging bugs related to initialization of hardware, loading of modules and is also helpful in providing information necessary
+in order to optimize to boot time for the system to the maximum extent.
+
+\item Debugging of Driver related bugs : Loading and unloading of kernel modules, memory inspection from host machine directly without going
+through the on-board processor channel.
+
+\item Peripheral testing and performance measurement : Any AXI peripheral can be tested directly from the host machine without interfering
+with the normal working of the system with proper care for isolation obviously.
+
+\item Faster bootstrapping for custom projects : The FPGA system is highly configurable and is designed to offer basic building blocks and
+their control interfaces and respective drivers for their easy integration and development of minimum working example systems. 
+
+\end{itemize}

@@ -1,0 +1,16 @@
+\singlespacing
+\begin{lstlisting}[language=C++, caption= Memory Copier Block HLS, label={lst:MCB}]
+#include <ap_int.h>
+#include <hls_stream.h>
+#include <string.h>
+
+void hls_dma (char *pSrc, char *pDest) {
+    #pragma HLS INTERFACE s_axilite port=return
+    #pragma HLS INTERFACE m_axi port=pSrc offset=slave
+    #pragma HLS INTERFACE m_axi port=pDest offset=slave
+    for (int i = 0; i < 1024*1024*128; i++) {
+        pDest[i] = pSrc[i];
+    }
+}
+\end{lstlisting}
+\doublespacing

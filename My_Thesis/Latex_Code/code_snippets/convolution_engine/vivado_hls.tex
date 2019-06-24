@@ -1,0 +1,45 @@
+\singlespacing
+\scriptsize
+\begin{lstlisting}[language=C++, caption=Core Vivado HLS, label={lst:convolution_engine_vivado_hls}]
+#include "ap_int.h"
+#include "hls_stream.h"
+
+void core(char* init_row, char* kernel_data_row, char* row_dest) {
+    #pragma HLS INTERFACE s_axilite port=return
+    #pragma HLS INTERFACE m_axi port=init_row offset=slave
+    #pragma HLS INTERFACE m_axi port=kernel_data_row offset=slave
+    #pragma HLS INTERFACE m_axi port=row_dest offset=slave
+
+    // assume an image size of 3x3 for now and the image is already padded with zeros.
+    // assuming a kernel of size 3x3 which is symmetric or already flipped stored at 
+    // the kernel storage location.
+
+    // init_row points to a 5x5 image matrix in hardware.
+
+    char i,j;
+    char index=0;
+    char acc=0;
+    char rows = 3; 
+    char cols = 3;
+
+    for(i=0;i<rows;i+=rows)
+    {
+	for(j=0;j<cols;j++)
+	{
+		acc+= kernel_data_row[0]*(*(init_row+i+j));
+		acc+= kernel_data_row[1]*(*(init_row+i+j+1));
+		acc+= kernel_data_row[2]*(*(init_row+i+j+2));
+		acc+= kernel_data_row[3]*(*(init_row+i+rows+j));
+		acc+= kernel_data_row[4]*(*(init_row+i+rows+j+1));
+		acc+= kernel_data_row[5]*(*(init_row+i+rows+j+2));
+		acc+= kernel_data_row[6]*(*(init_row+i+2*rows+j));
+		acc+= kernel_data_row[7]*(*(init_row+i+2*rows+j+1));
+		acc+= kernel_data_row[8]*(*(init_row+i+2*rows+j+2));
+		row_dest[index] = acc;
+		index++;
+	}
+    }
+}
+\end{lstlisting}
+\normalsize
+\doublespacing

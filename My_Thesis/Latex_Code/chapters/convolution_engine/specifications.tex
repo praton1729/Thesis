@@ -1,0 +1,22 @@
+\chapter{Specifications}
+
+Following is the specification for the current storage of image and kernel data:-
+
+\begin{itemize}
+
+\item 8 bits per pixel of image data and also kernel data.
+\item Image would be of size 1024 x 1024 pixels (Basically 1022x1022 with zero padding).
+\item Kernel would be of size 3 x 3.
+
+\end{itemize}
+
+Following is the specification for the current convolution core:- 
+
+\begin{itemize}
+
+\item An AXI Slave interface as the input interface for the addresses for the fetcher.
+\item 32 coprocessors each assigned 32 rows by the fetcher.
+\item A FIFO like interface for the fetcher to interface with the convolution core.
+\item An AXI Master port for the fetcher for performing write backs to the memory.
+
+\end{itemize}

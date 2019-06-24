@@ -1,0 +1,231 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (section-1-140162273643984)
+>> /Border [ 0 0 0 ] /Rect [ 62.69291 614.0236 107.7029 626.0236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (section-1-140162273643984)
+>> /Border [ 0 0 0 ] /Rect [ 527.0227 614.7736 532.5827 626.7736 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/Annots [ 4 0 R 5 0 R ] /Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 11 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/Outlines 9 0 R /PageLabels 13 0 R /PageMode /UseNone /Pages 11 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (Prathu Baronia; IIT Bombay) /CreationDate (D:20190613095217-05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190613095217-05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Introduction) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 1 /First 10 0 R /Last 10 0 R /Type /Outlines
+>>
+endobj
+10 0 obj
+<<
+/Dest [ 6 0 R /XYZ 62.69291 569.0236 0 ] /Parent 9 0 R /Title (Section-1)
+>>
+endobj
+11 0 obj
+<<
+/Count 1 /Kids [ 6 0 R ] /Type /Pages
+>>
+endobj
+12 0 obj
+<<
+/Length 1820
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 176.6149 0 Td (Introduction) Tj T* -176.6149 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 716.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 46.36937 0 Td (align:) Tj T* -46.36937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (center) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 683.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 31.37937 0 Td (Authors:) Tj T* -31.37937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Prathu Baronia) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (IIT Bombay) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 668.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 33.02937 0 Td (Version:) Tj T* -33.02937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (0.1 of 2019/06/13) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Section-1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 581.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.15881 Tw (This is a reference manual for the FPGA system developed for the 32-bit processor named AJIT at IIT) Tj T* 0 Tw (Bombay.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 548.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Section-1) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+13 0 obj
+<<
+/Nums [ 0 14 0 R ]
+>>
+endobj
+14 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 15
+0000000000 65535 f 
+0000000073 00000 n 
+0000000114 00000 n 
+0000000221 00000 n 
+0000000333 00000 n 
+0000000510 00000 n 
+0000000687 00000 n 
+0000000916 00000 n 
+0000001020 00000 n 
+0000001315 00000 n 
+0000001388 00000 n 
+0000001484 00000 n 
+0000001544 00000 n 
+0000003416 00000 n 
+0000003457 00000 n 
+trailer
+<<
+/ID 
+[<34f21229e0523cfc81540dd805a047d0><34f21229e0523cfc81540dd805a047d0>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 15
+>>
+startxref
+3491
+%%EOF

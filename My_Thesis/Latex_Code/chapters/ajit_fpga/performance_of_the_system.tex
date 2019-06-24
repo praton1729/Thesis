@@ -1,0 +1,47 @@
+\chapter{Performance of the System}
+
+%\section{Timing and utilization summary}
+
+\section*{Timing Summary}
+
+In the following table we report the timing summary of the synthesized and implemented design of the FPGA System on VC709 operating at
+100MHz.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c | c | c | c}
+\hline
+Parameter & Description & Tolerance & Value Obtained \\
+\hline
+WNS & Worst Negative Slack & 1-2 percent of 10ns & -0.1ns\\
+CP & Critical Path & N/A & Exists within Xilinx Smartconnect  
+\end{tabular}
+\caption{Timing Summary}
+\end{table}
+
+\section*{Utilization Summary}
+In the following table we report the utilization summary of the synthesized and implemented design of different variants of the FPGA System
+on VC709.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c | c | c}
+\hline
+Design & Description & Value Obtained \\
+\hline
+\end{tabular}
+\caption{Utilization Summary}
+\end{table}
+
+\section*{Host to FPGA system}
+
+\paragraph{Writing speed of PCIe\\}
+\setlength{\parindent}{0em}
+Writing speed of PCIe with 6 blocks of 128MB each after preliminary tests was found to be around 400 MB/s which is significantly higher than
+the required speed in the current situation and also when compared to the past FPGA system. This speed is really helpful when we need to
+write huge amount of data to memory for example to write the image of the custom compiled operating system for AJIT.
+
+\paragraph{Reading speed of PCIe\\}
+
+Reading speed of PCIe with 6 blocks of 128MB each after preliminary tests was found to be around 10 MB/s which is significantly higher than
+the required speed in the current situation and also when compared to the past FPGA system. 

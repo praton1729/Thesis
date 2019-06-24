@@ -1,0 +1,35 @@
+\chapter{Implementation}
+
+\section{Vivado HLS}
+
+Listing~\ref{lst:convolution_engine_vivado_hls} shows the convolution engine design which would convolve a 1024$\times$1024 image with a
+3$\times$3 kernel. This is a functionally correct but an unoptimized design for the convolution engine of this size.
+
+\input{code_snippets/convolution_engine/vivado_hls}
+
+\section{AHIR HLS}
+
+\subsection{C to VHDL}
+\subsubsection{Non-pipelined Version}
+
+\subsubsection{Pipelined Version}
+
+\subsection{Aa to VHDL}
+\subsubsection{Non-pipelined Version}
+
+\subsubsection{Pipelined Version}
+
+\section{Testing Setup}
+
+\subsection{AHIR Testbenches}
+
+\subsubsection{Hardware Test}
+
+\paragraph{testbench\_hw \\}
+\blindtext
+\paragraph{ ahir\_system\_test\_bench \\}
+
+\subsubsection{Software Test}
+
+\paragraph{testbench\_sw \\}
+

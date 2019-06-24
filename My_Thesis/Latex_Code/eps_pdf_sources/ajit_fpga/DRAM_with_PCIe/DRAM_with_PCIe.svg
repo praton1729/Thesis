@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="DRAM_with_PCIe.svg"
+   inkscape:export-filename="/home/praton/Documents/Sem-9/DDP/Docs/My_Documentation/Report_Stage_1/block_diagrams/DRAM_with_PCIe/DRAM_with_PCIe.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.80903704"
+     inkscape:cx="526.1811"
+     inkscape:cy="372.04724"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="647"
+     inkscape:window-height="679"
+     inkscape:window-x="690"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0"
+     units="mm" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26824)">
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3338"
+       width="675.79749"
+       height="38.999722"
+       x="195.49467"
+       y="640.27582" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.48009682px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="418.0072"
+       y="690.53088"
+       id="text3340"
+       sodipodi:linespacing="125%"
+       transform="scale(1.033458,0.96762519)"><tspan
+         sodipodi:role="line"
+         id="tspan3342"
+         x="418.0072"
+         y="690.53088"
+         style="fill:#000000">AXI-Interconnect</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4187"
+       width="122.56026"
+       height="98.687569"
+       x="537.55597"
+       y="497.67337" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.48009682px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="578.69519"
+       y="559.43646"
+       id="text4189"
+       sodipodi:linespacing="125%"
+       transform="scale(1.033458,0.96762519)"><tspan
+         sodipodi:role="line"
+         x="578.69519"
+         y="559.43646"
+         style="font-size:20.545084px;text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan3423">Processor</tspan><tspan
+         sodipodi:role="line"
+         x="578.69519"
+         y="592.87073"
+         style="font-size:20.545084px;text-align:center;text-anchor:middle;fill:#000000"
+         id="tspan3427">Core</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.72604883;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4146-6"
+       width="107.28251"
+       height="43.071964"
+       x="732.82281"
+       y="524.27594" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.48009682px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="711.75635"
+       y="567.65033"
+       id="text4207-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.033458,0.96762519)"><tspan
+         sodipodi:role="line"
+         id="tspan4209-9"
+         x="711.75635"
+         y="567.65033"
+         style="font-size:16.14256668px">Peripheral-2</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.72604883;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4146-0"
+       width="107.28251"
+       height="43.071964"
+       x="352.88605"
+       y="744.60175" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.48009682px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="344.11987"
+       y="795.34778"
+       id="text4207-6"
+       sodipodi:linespacing="125%"
+       transform="scale(1.033458,0.96762519)"><tspan
+         sodipodi:role="line"
+         id="tspan4209-2"
+         x="344.11987"
+         y="795.34778"
+         style="font-size:16.14256668px">Peripheral-3</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.72604883;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4146"
+       width="107.28251"
+       height="43.071964"
+       x="360.23965"
+       y="520.83337" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.48009682px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="351.23547"
+       y="564.09259"
+       id="text4207"
+       sodipodi:linespacing="125%"
+       transform="scale(1.033458,0.96762519)"><tspan
+         sodipodi:role="line"
+         id="tspan4209"
+         x="351.23547"
+         y="564.09259"
+         style="font-size:16.14256668px">Peripheral-1</tspan></text>
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.17400479;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4339"
+       width="4.4989953"
+       height="73.717049"
+       x="410.6832"
+       y="565.495" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.92288345;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4339-6"
+       width="4.7585187"
+       height="43.069084"
+       x="594.08539"
+       y="597.31757" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.15419793;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4339-1"
+       width="4.519465"
+       height="70.92794"
+       x="783.6261"
+       y="568.64471" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:1.10247779;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4339-8-3"
+       width="4.5729156"
+       height="63.957306"
+       x="407.57916"
+       y="679.54633" />
+    <g
+       id="g3470"
+       transform="translate(-98,0)">
+      <rect
+         y="600.8681"
+         x="165.39713"
+         height="116.7785"
+         width="64.560471"
+         id="rect3401"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1.53622973;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="767.96582"
+         x="210.96922"
+         height="53.167446"
+         width="78.80175"
+         id="rect4203"
+         style="fill:#ffffff;stroke:#000000;stroke-width:1.53622973;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4205"
+         y="653.08618"
+         x="173.94188"
+         style="font-style:normal;font-weight:normal;font-size:30.72459602px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-size:19.20287132px"
+           y="653.08618"
+           x="173.94188"
+           id="tspan4207"
+           sodipodi:role="line">Host</tspan><tspan
+           style="font-size:19.20287132px"
+           id="tspan4210"
+           y="677.08978"
+           x="173.94188"
+           sodipodi:role="line">CPU</tspan></text>
+      <text
+         transform="scale(0.96811203,1.0329383)"
+         sodipodi:linespacing="125%"
+         id="text4212"
+         y="776.95667"
+         x="229.33946"
+         style="font-style:normal;font-weight:normal;font-size:27.79417038px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="776.95667"
+           x="229.33946"
+           id="tspan4214"
+           sodipodi:role="line">JTAG</tspan></text>
+      <g
+         transform="matrix(0.76811488,0,0,0.76811488,106.53316,64.791598)"
+         id="g4224">
+        <rect
+           style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4220"
+           width="8.6522617"
+           height="102.5911"
+           x="107.53525"
+           y="849.65259" />
+        <rect
+           style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4222"
+           width="18.54056"
+           height="11.124336"
+           x="116.18752"
+           y="941.11938" />
+      </g>
+      <g
+         transform="matrix(0.76811488,0,0,0.76811488,103.4607,67.864058)"
+         id="g3379">
+        <rect
+           style="fill:#000000;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4228"
+           width="6.1801867"
+           height="154.50467"
+           x="271.92822"
+           y="796.50299" />
+        <rect
+           style="fill:#000000;stroke:#000000;stroke-width:2.25850654;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4230"
+           width="33.423508"
+           height="8.3937559"
+           x="244.39258"
+           y="942.95679" />
+      </g>
+    </g>
+    <g
+       id="g4250"
+       transform="matrix(0.76811488,0,0,0.76811488,106.53316,67.864058)">
+      <g
+         transform="translate(108,0)"
+         id="g3413">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:2.24712324;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4146-9"
+           width="139.66988"
+           height="56.074898"
+           x="491.453"
+           y="879.54303" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:30.56847px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="537.86261"
+           y="932.26825"
+           id="text4207-3"
+           sodipodi:linespacing="125%"
+           transform="scale(1.033458,0.9676252)"><tspan
+             sodipodi:role="line"
+             id="tspan4209-6"
+             x="541.20789"
+             y="932.26825"
+             style="font-size:21.01582336px;text-align:center;text-anchor:middle">Memory </tspan><tspan
+             id="tspan3419"
+             sodipodi:role="line"
+             x="537.86261"
+             y="958.53802"
+             style="font-size:21.01582336px;text-align:center;text-anchor:middle">Controller</tspan></text>
+        <rect
+           style="fill:#000000;stroke:#000000;stroke-width:1.42130244;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4339-8-2"
+           width="5.967896"
+           height="81.450813"
+           x="558.24768"
+           y="796.33539" />
+      </g>
+      <g
+         transform="translate(-12,0)"
+         id="g4245">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4229"
+           width="304.06519"
+           height="60.56583"
+           x="540.14832"
+           y="972.02032" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="571.54657"
+           y="1010.1573"
+           id="text4231"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4233"
+             x="571.54657"
+             y="1010.1573"
+             style="font-size:30px">On-board DRAM</tspan></text>
+      </g>
+      <rect
+         y="935.99255"
+         x="666.04785"
+         height="36.210411"
+         width="6.5390863"
+         id="rect4235"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.63466847;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3379"
+       width="95.174873"
+       height="101.35506"
+       x="142.1443"
+       y="455.35669" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:33.90894318px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="188.27138"
+       y="504.0751"
+       id="text4181"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4183"
+         x="191.30754"
+         y="504.0751"
+         style="font-size:19.07378197px;text-align:center;text-anchor:middle">PCIe-AXI </tspan><tspan
+         sodipodi:role="line"
+         x="188.27138"
+         y="527.91736"
+         id="tspan4185"
+         style="font-size:19.07378197px;text-align:center;text-anchor:middle">Interface</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.98780382;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4188"
+       width="4.9563456"
+       height="103.53032"
+       x="87.752556"
+       y="496.13983" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4190"
+       width="53.149605"
+       height="6.1801867"
+       x="87.758652"
+       y="496.14594" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4192"
+       width="34.609039"
+       height="7.416213"
+       x="238.55521"
+       y="502.32611" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.98463666;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4194"
+       width="6.19555"
+       height="135.97948"
+       x="270.68448"
+       y="502.31842" />
+  </g>
+</svg>

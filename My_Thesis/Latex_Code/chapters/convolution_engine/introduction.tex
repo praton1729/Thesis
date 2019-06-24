@@ -1,0 +1,17 @@
+\chapter{Introduction}
+
+\section*{Background}
+
+Now we move on to development of a standalone Convolution Core which was be designed using industry standard Vivado HLS tools and also AHIR
+HLS tools which is a set of in-house tools developed at IIT Bombay by Prof. Madhav Desai. The goal associated with the development of this
+core was to speed up the computationally expensive task of convolution of two matrices. It divides the incoming computation among the
+internal coprocessors and fires them up in parallel to make the computation faster. 
+
+This core has a FIFO like interface and is capable of pumping out the resultant matrix elements as soon as they have been calculated so that
+the write back can begin.
+
+\section*{Need for a HPC peripheral}
+
+These family of cores are useful in various contexts specially Machine Learning and Image Processing algorithms. Development boards which
+have a FPGA interfaced with a processor can utilize these kinds of peripherals and allow the programmer to have a simple interface to
+offload high computation tasks to codecs on the adjacent FPGA.
