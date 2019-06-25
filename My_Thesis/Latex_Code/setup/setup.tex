@@ -183,6 +183,32 @@
   \end{center}
 \end{figure}
 }
+\newcommand{\plottimingfromcsv}[2]{
+\begin{figure}[H]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{axis}[
+          width=0.8\textwidth, % Scale the plot to \linewidth
+          grid=major, % Display a grid
+          grid style={dashed,gray!30}, % Set the style
+          xlabel=Number of Cores, % Set the labels
+          ylabel=Time taken in $\mu$s,
+          %x unit=\si{\units}, % Set the respective units
+          %y unit=\si{\ampere},
+          legend style={at={(0.7,0.3)},anchor=north}, % Put the legend below the plot
+          %x tick label style={rotate=90,anchor=east} % Display labels sideways
+        ]
+        \addplot 
+        % add a plot from table; you select the columns by using the actual name in
+        % the .csv file (on top)
+        table[x=cores,y=ffs,col sep=comma] {#1}; 
+        \legend{#2}
+      \end{axis}
+    \end{tikzpicture}
+    \caption{Number of Cores Vs Time taken in $\mu$s}
+  \end{center}
+\end{figure}
+}
 
 \newcommand{\liste}[1]{\begin{enumerate}[label=\textbf{#1:\arabic*}]}
 \newcommand{\inn}{\begin{enumerate}[label*=\textbf{.\arabic*}]}

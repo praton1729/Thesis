@@ -1,6 +1,7 @@
 # Directory structure
 
 My Master's project thesis
+```bash
 .
 |-- My_Thesis
 |   |-- Latex_Code
@@ -54,3 +55,4 @@ My Master's project thesis
         `-- xsct_access.rst
 
 22 directories, 28 files
+```

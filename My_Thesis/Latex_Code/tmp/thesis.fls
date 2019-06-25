@@ -351,10 +351,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplot
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.units.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT csvs/tables.tex
-INPUT csvs/tables.tex
-INPUT tmp/c_np.csv
-INPUT tmp/grade.csv
 INPUT tmp/thesis.aux
 INPUT tmp/thesis.aux
 OUTPUT tmp/thesis.aux
