@@ -10,26 +10,48 @@ Listing~\ref{lst:convolution_engine_vivado_hls} shows the convolution engine des
 \section{AHIR HLS}
 
 \subsection{C to VHDL}
-\subsubsection{Non-pipelined Version}
 
-\subsubsection{Pipelined Version}
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{eps_pdf_sources/convolution_engine/implementation/c_2_vhdl}
+\caption{C to VHDL design flow}
+\label{c2vhdl}
+\end{figure}
+
+\begin{flushleft}
+\textit{VC} : Virtual circuit format\\
+\textit{Aa} : Aa language format(explained below)
+\end{flushleft}
 
 \subsection{Aa to VHDL}
-\subsubsection{Non-pipelined Version}
 
-\subsubsection{Pipelined Version}
+Aa is a programming language for the description of algorithms, with the ultimate aim being the conversion of these algorithms into a
+hardware implementation. The control-flow in an Aa program corresponds to a petri net of a specific class. The data-flow is constructed
+using static single-assignment variables (which can be assigned to only once), storage objects, messaging pipes and constants. Pointers to
+storage objects can be created and manipulated (pointer arithmetic, dereferencing etc.) in the usual way. A program in Aa can also be
+viewed as a description of a system which reacts with its environment through input and output ports. Thus, an Aa program can either be
+executed on a computer, or be mapped to a logic circuit. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{eps_pdf_sources/convolution_engine/implementation/aa_2_vhdl}
+\caption{Aa to VHDL design flow}
+\label{aa2vhdl}
+\end{figure}
 
 \section{Testing Setup}
 
 \subsection{AHIR Testbenches}
 
-\subsubsection{Hardware Test}
-
-\paragraph{testbench\_hw \\}
-\blindtext
-\paragraph{ ahir\_system\_test\_bench \\}
-
 \subsubsection{Software Test}
+%\paragraph{testbench\_sw \\}
+This method of testing the design works only for the C to VHDL design flow. We have a common C testbench file between software and hardware
+testing. This testbench when compiled for software testing runs different system units as multiple threads which communicate through
+software pipes.
 
-\paragraph{testbench\_sw \\}
-
+\subsubsection{Hardware Test}
+%\paragraph{testbench\_hw and ahir\_system\_test\_bench \\}
+This method of testing the design works for the C to VHDL design flow as well as Aa to VHDL design flow. We have a common C testbench file
+between software and hardware testing. This testbench when compiled for hardware testing generates to two executables named
+\verb|testbench_hw| and \verb|ahir_system_test_bench| which can be run in different shells one after another to start a ghdl simulation
+enabled by communicating through sockets.

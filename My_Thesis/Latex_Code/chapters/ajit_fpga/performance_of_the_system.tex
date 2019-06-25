@@ -20,28 +20,37 @@ CP & Critical Path & N/A & Exists within Xilinx Smartconnect
 \end{table}
 
 \section*{Utilization Summary}
-In the following table we report the utilization summary of the synthesized and implemented design of different variants of the FPGA System
+In table~\ref{ajit_utilization} we report the utilization summary of the synthesized and implemented design of different variants of the FPGA System
 on VC709.
 
 \begin{table}[H]
 \centering
-\begin{tabular}{c | c | c}
+\begin{tabular}{c | c}
 \hline
-Design & Description & Value Obtained \\
+Design & Hardware Usage \\
+\hline
+AJIT FPGA System & 116024 \\
+AJIT and Microblaze & 124398\\
 \hline
 \end{tabular}
 \caption{Utilization Summary}
+\label{ajit_utilization}
 \end{table}
+
+\begin{flushleft}
+\textit{Hardware Usage} : Number of Flip Flops in the design.\\
+\textit{Microblaze} : Used for testing the system peripherals without AJIT.
+\end{flushleft}
 
 \section*{Host to FPGA system}
 
-\paragraph{Writing speed of PCIe\\}
-\setlength{\parindent}{0em}
+\subsection*{Writing speed of PCIe}
+%\setlength{\parindent}{0em}
 Writing speed of PCIe with 6 blocks of 128MB each after preliminary tests was found to be around 400 MB/s which is significantly higher than
 the required speed in the current situation and also when compared to the past FPGA system. This speed is really helpful when we need to
 write huge amount of data to memory for example to write the image of the custom compiled operating system for AJIT.
 
-\paragraph{Reading speed of PCIe\\}
+\subsection*{Reading speed of PCIe}
 
 Reading speed of PCIe with 6 blocks of 128MB each after preliminary tests was found to be around 10 MB/s which is significantly higher than
 the required speed in the current situation and also when compared to the past FPGA system. 

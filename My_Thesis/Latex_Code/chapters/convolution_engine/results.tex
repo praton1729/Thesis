@@ -2,4 +2,79 @@
 
 \section{Timing Results}
 
-Timing results from different variants of the engine design.
+Timing results from different variants of the engine design for convoluting an image of size 1024$\times$1024 with a kernel of size
+3$\times$3. 
+
+\subsection{C to VHDL}
+
+\subsubsection*{Non-pipelined Version}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c}%
+    \hline
+    \bfseries Number of Cores & \bfseries Time Taken(in ns)\\\hline % specify table head
+    \csvreader[head to column names]{csvs/c_np_timing.csv}{}% use head of csv as column names
+    {\\\cores & \timing} % specify your coloumns here
+\end{tabular}
+\caption{Timing analysis}
+\end{table}
+
+\plottimingfromcsv{csvs/c_np_timing.csv}{Non-pipelined Coprocessor}
+
+\subsubsection*{Pipelined Version}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c | c}
+\hline
+Number of Cores & FFs \\
+\hline
+1 & 59.640203597 \\
+2 & 59.607970220 \\
+4 & 59.611384216 \\
+8 & 59.690874289 \\
+16 & 59.722889924\\
+32 & 59.722889924
+\end{tabular}
+\caption{Timing Results}
+\end{table}
+
+\subsection{Aa to VHDL}
+
+\subsubsection*{Non-pipelined Version}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c | c}
+\hline
+Number of Cores & FFs \\
+\hline
+1 & 59.640203597 \\
+2 & 59.607970220 \\
+4 & 59.611384216 \\
+8 & 59.690874289 \\
+16 & 59.722889924\\
+32 & 59.722889924
+\end{tabular}
+\caption{Timing Results}
+\end{table}
+
+\subsubsection*{Pipelined Version}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c | c}
+\hline
+Number of Cores & FFs \\
+\hline
+1 & 59.640203597 \\
+2 & 59.607970220 \\
+4 & 59.611384216 \\
+8 & 59.690874289 \\
+16 & 59.722889924\\
+32 & 59.722889924
+\end{tabular}
+\caption{Timing Results}
+\end{table}
+
