@@ -35,6 +35,7 @@
 \usepackage{tikz} % To generate the plot from csv
 \usepackage{pgfplots}
 \usepackage{csvsimple}
+\usepackage[export]{adjustbox}
 
 \pgfplotsset{compat=newest} % Allows to place the legend below plot
 \usepgfplotslibrary{units} % Allows to enter the units nicely
@@ -195,13 +196,13 @@
           ylabel=Time taken in $\mu$s,
           %x unit=\si{\units}, % Set the respective units
           %y unit=\si{\ampere},
-          legend style={at={(0.7,0.3)},anchor=north}, % Put the legend below the plot
+          legend style={at={(0.7,0.5)},anchor=north}, % Put the legend below the plot
           %x tick label style={rotate=90,anchor=east} % Display labels sideways
         ]
         \addplot 
         % add a plot from table; you select the columns by using the actual name in
         % the .csv file (on top)
-        table[x=cores,y=ffs,col sep=comma] {#1}; 
+        table[x=cores,y=timing,col sep=comma] {#1}; 
         \legend{#2}
       \end{axis}
     \end{tikzpicture}

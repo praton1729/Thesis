@@ -1,43 +1,43 @@
-\chapter{Results}
+%\chapter{Results}
 
 \section{Timing Results}
 
 Timing results from different variants of the engine design for convoluting an image of size 32$\times$32 with a kernel of size
 3$\times$3. 
 
-\subsection{C to VHDL}
+%\subsection{C to VHDL}
+%
+%\subsubsection*{Non-pipelined Version}
+%
+%\begin{table}[H]
+%\centering
+%\begin{tabular}{c|c}%
+%    \hline
+%    \bfseries Number of Cores & \bfseries Time Taken(in us)\\\hline % specify table head
+%    \csvreader[head to column names]{csvs/c_np_timing.csv}{}% use head of csv as column names
+%    {\\\cores & \timing} % specify your coloumns here
+%\end{tabular}
+%\caption{Timing analysis}
+%\end{table}
+%
+%\plottimingfromcsv{csvs/c_np_timing.csv}{Non-pipelined Coprocessor}
+%
+%\subsubsection*{Pipelined Version}
+%
+%\begin{table}[H]
+%\centering
+%\begin{tabular}{c|c}%
+%    \hline
+%    \bfseries Number of Cores & \bfseries Time Taken(in us)\\\hline % specify table head
+%    \csvreader[head to column names]{csvs/c_p_timing.csv}{}% use head of csv as column names
+%    {\\\cores & \timing} % specify your coloumns here
+%\end{tabular}
+%\caption{Timing analysis}
+%\end{table}
+%
+%\plottimingfromcsv{csvs/c_p_timing.csv}{Pipelined Coprocessor}
 
-\subsubsection*{Non-pipelined Version}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{c|c}%
-    \hline
-    \bfseries Number of Cores & \bfseries Time Taken(in us)\\\hline % specify table head
-    \csvreader[head to column names]{csvs/c_np_timing.csv}{}% use head of csv as column names
-    {\\\cores & \timing} % specify your coloumns here
-\end{tabular}
-\caption{Timing analysis}
-\end{table}
-
-\plottimingfromcsv{csvs/c_np_timing.csv}{Non-pipelined Coprocessor}
-
-\subsubsection*{Pipelined Version}
-
-\begin{table}[H]
-\centering
-\begin{tabular}{c|c}%
-    \hline
-    \bfseries Number of Cores & \bfseries Time Taken(in us)\\\hline % specify table head
-    \csvreader[head to column names]{csvs/c_p_timing.csv}{}% use head of csv as column names
-    {\\\cores & \timing} % specify your coloumns here
-\end{tabular}
-\caption{Timing analysis}
-\end{table}
-
-\plottimingfromcsv{csvs/c_p_timing.csv}{Pipelined Coprocessor}
-
-\subsection{Aa to VHDL}
+\subsection*{Aa to VHDL}
 
 \subsubsection*{Non-pipelined Version}
 
