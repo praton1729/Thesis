@@ -1,0 +1,20 @@
+Vivado_Projects
+|-- Ajit_Core_Timing_Analysis
+|-- AJIT_NGC_Simulation
+|-- clean_logs
+|-- Counter_Simulation
+|-- Full_System
+|-- Full_System_AJIT_Master
+|-- Full_System.pdf
+|-- HDL_ips
+|-- HLS_ips
+|-- IP_Packaging_Projects
+|-- Multiple_bars
+|-- NGC_ips
+|-- port_defs
+|-- README.md
+|-- RnD
+|-- Tcl_scripts
+|-- Trash
+
+14 directories, 5 files

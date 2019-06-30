@@ -1,0 +1,115 @@
+Vivado_Projects
+|-- Ajit_Core_Timing_Analysis
+|   |-- Ajit_Core_Timing_Analysis.cache
+|   |-- Ajit_Core_Timing_Analysis.hw
+|   |-- Ajit_Core_Timing_Analysis.ip_user_files
+|   |-- Ajit_Core_Timing_Analysis.runs
+|   |-- Ajit_Core_Timing_Analysis.sim
+|   |-- Ajit_Core_Timing_Analysis.srcs
+|   `-- Ajit_Core_Timing_Analysis.xpr
+|-- AJIT_NGC_Simulation
+|   |-- AJIT_NGC_Simulation.cache
+|   |-- AJIT_NGC_Simulation.hw
+|   |-- AJIT_NGC_Simulation.ip_user_files
+|   |-- AJIT_NGC_Simulation.sim
+|   |-- AJIT_NGC_Simulation.srcs
+|   `-- AJIT_NGC_Simulation.xpr
+|-- clean_logs
+|-- Counter_Simulation
+|   |-- Counter_Simulation.cache
+|   |-- Counter_Simulation.hw
+|   |-- Counter_Simulation.ip_user_files
+|   |-- Counter_Simulation.sim
+|   |-- Counter_Simulation.srcs
+|   `-- Counter_Simulation.xpr
+|-- Full_System
+|   |-- Full_System.cache
+|   |-- Full_System.hw
+|   |-- Full_System.ip_user_files
+|   |-- Full_System.runs
+|   |-- Full_System.sim
+|   |-- Full_System.srcs
+|   |-- Full_System.xpr
+|   |-- ip_upgrade.log
+|   |-- vivado_18650.backup.jou
+|   |-- vivado_18650.backup.log
+|   |-- vivado.jou
+|   `-- vivado.log
+|-- Full_System_AJIT_Master
+|   |-- Full_System_AJIT_Master.cache
+|   |-- Full_System_AJIT_Master.hw
+|   |-- Full_System_AJIT_Master.ip_user_files
+|   |-- Full_System_AJIT_Master.runs
+|   |-- Full_System_AJIT_Master.sdk
+|   |-- Full_System_AJIT_Master.sim
+|   |-- Full_System_AJIT_Master.srcs
+|   `-- Full_System_AJIT_Master.xpr
+|-- Full_System.pdf
+|-- HDL_ips
+|   |-- AFB_AXI_Master
+|   |-- Basics
+|   |-- Dummy_Ajit
+|   |-- Neuro_Core
+|   `-- Trash
+|-- HLS_ips
+|   |-- Adder
+|   |-- fifo_controllers
+|   |-- FIFOs
+|   |-- Memory_Address_Translator_HLS
+|   `-- Trash
+|-- IP_Packaging_Projects
+|   |-- AFB_AXI_Bridge_Packaging
+|   |-- Ajit_Core_Packaging
+|   |-- Combined_IP_AJIT_AFB_Bridge_and_Debug_bridge
+|   |-- FIFO_IP_Packaging
+|   |-- Global_IP_repo
+|   |-- ip_repo
+|   `-- Tcl_Scripts_for_packaging
+|-- Multiple_bars
+|   |-- Multiple_bars.cache
+|   |-- Multiple_bars.hw
+|   |-- Multiple_bars.ip_user_files
+|   |-- Multiple_bars.runs
+|   |-- Multiple_bars.sdk
+|   |-- Multiple_bars.sim
+|   |-- Multiple_bars.srcs
+|   |-- Multiple_bars.xpr
+|   |-- vivado.jou
+|   `-- vivado.log
+|-- NGC_ips
+|   |-- Ajit_Core
+|   `-- Trash
+|-- port_defs
+|   |-- AFB
+|   |-- Debug_bridge
+|   `-- FIFO
+|-- README.md
+|-- RnD
+|   |-- Core_models
+|   |-- Pure_Aa
+|   |-- Pure_C
+|   `-- tcl_scripts
+|-- Tcl_scripts
+|   |-- ajit_core_timing_project_gen.tcl
+|   |-- bitstream_generate_and_flash.tcl
+|   |-- Full_System_AJIT_Master.tcl
+|   |-- Full_System.tcl
+|   |-- Multiple_bars.tcl
+|   |-- synth_impl_bitgen.tcl
+|   `-- Trash
+|-- Trash
+|   |-- AFB_FIFO_PCIe_Memory_VC709
+|   |-- FIFO_test_PCIe_Memory_VC709
+|   |-- FPGA_System_synthesis_test_project
+|   |-- Full_System
+|   |-- full_system_128M_32M_barOk
+|   |-- full_system_128M_32M_barOk_With_memory_Translation_block
+|   |-- ip_repo
+|   |-- MAT_Test_System
+|   |-- Memory_Address_Translator_Test
+|   |-- Memory_Controller_VC709
+|   `-- PCIe_integrated_VC709_Memory_Controller
+|-- vivado.jou
+`-- vivado.log
+
+88 directories, 24 files
